@@ -1,0 +1,58 @@
+{
+	"name": "@novada/n8n-nodes-novada",
+	"version": "0.1.0",
+	"description": "n8n community node for Novada Scraper API and Web Unblocker",
+	"license": "MIT",
+	"homepage": "https://github.com/NovadaLabs/n8n-nodes-novada",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"novada",
+		"web-scraping",
+		"scraper-api",
+		"web-unblocker"
+	],
+	"author": {
+		"name": "Novada",
+		"email": "support@novada.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NovadaLabs/n8n-nodes-novada.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/NovadaApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/Novada/Novada.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "^21.1.0",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}
