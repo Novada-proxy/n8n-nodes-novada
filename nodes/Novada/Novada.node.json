@@ -1,17 +1,17 @@
 {
-	"node": "@novada/n8n-nodes-novada.novada",
+	"node": "n8n-nodes-novada.novada",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["Data & Storage", "Development"],
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://github.com/NovadaLabs/n8n-nodes-novada?tab=readme-ov-file#credentials"
+				"url": "https://github.com/Novada-proxy/n8n-nodes-novada?tab=readme-ov-file#credentials"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://github.com/NovadaLabs/n8n-nodes-novada?tab=readme-ov-file"
+				"url": "https://github.com/Novada-proxy/n8n-nodes-novada?tab=readme-ov-file"
 			}
 		]
 	}

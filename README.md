@@ -1,4 +1,4 @@
-# @novada/n8n-nodes-novada
+# n8n-nodes-novada
 
 This is an n8n community node. It lets you use [Novada](https://www.novada.com/) in your n8n workflows.
 
@@ -16,7 +16,7 @@ Novada provides a Scraper API that returns structured data from Google, Amazon, 
 
 ## Installation
 
-Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) in the n8n community nodes documentation. The package name is `@novada/n8n-nodes-novada`.
+Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) in the n8n community nodes documentation. The package name is `n8n-nodes-novada`.
 
 ## Operations
 

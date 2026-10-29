@@ -1,9 +1,9 @@
 {
-	"name": "@novada/n8n-nodes-novada",
+	"name": "n8n-nodes-novada",
 	"version": "0.1.0",
 	"description": "n8n community node for Novada Scraper API and Web Unblocker",
 	"license": "MIT",
-	"homepage": "https://github.com/NovadaLabs/n8n-nodes-novada",
+	"homepage": "https://github.com/Novada-proxy/n8n-nodes-novada",
 	"keywords": [
 		"n8n-community-node-package",
 		"n8n",
@@ -18,7 +18,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/NovadaLabs/n8n-nodes-novada.git"
+		"url": "git+https://github.com/Novada-proxy/n8n-nodes-novada.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
